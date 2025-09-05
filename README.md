@@ -1,4 +1,4 @@
-# AUTOMATIC-RAILWAY-TRACK-CRACK-DETECTOR
+# AUTOMATIC RAILWAY TRACK CRACK DETECTOR
 
 The Indian Railway has one of the largest railway networks in the world, covering over 1,15,000 km. A recent study found that more than 25% of the track length needs replacement because of cracks. Detecting cracks manually is difficult and not very effective.
 
