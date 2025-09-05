@@ -27,3 +27,31 @@ Reduces worker fatigue
 Prptotype Image
 
 ![IMG_20190812_105636](https://github.com/user-attachments/assets/161f567b-c271-481c-b36c-184d8ba18e7d)
+
+![IMG_20190812_104820](https://github.com/user-attachments/assets/4d1c87dd-1edd-44da-b200-24fc3559372b)
+
+Working Principle of the System
+
+The proposed project employs two sets of Infrared (IR) sensor units mounted on both sides of the vehicle. These sensors continuously monitor the condition of the railway track and serve as the primary input to detect cracks. The sensing mechanism is directly linked to a GSM communication module, which transmits alerts to a mobile device when a crack is detected. The overall working can be divided into two modes:
+
+A. Normal Operating Condition
+
+The IR transmitter continuously emits infrared rays, which are detected by the corresponding IR receiver positioned on the same side of the vehicle.
+
+Both sensor units (one on each side of the track) function simultaneously to ensure complete monitoring.
+
+When the track is intact, both sensors receive uninterrupted signals. This condition is interpreted as Low–Low (0–0) by the circuit.
+
+In this case, the vehicle proceeds normally along the track without interruption, as no abnormality is detected.
+
+B. Crack Detection Condition
+
+If a crack appears on either side of the track, the infrared signal is interrupted for that particular sensor.
+
+The affected sensor outputs a High signal (1), while the other remains Low. This discrepancy is detected by the interfacing Integrated Circuit (IC).
+
+The IC processes the signal and triggers the relay driver circuit, which in turn notifies the microcontroller of the fault condition.
+
+The microcontroller then commands the GSM module to send an alert message to the pre-configured mobile number, providing real-time information about the detected crack.
+
+This ensures that corrective action can be taken immediately to prevent accidents or derailments.
