@@ -59,3 +59,12 @@ This ensures that corrective action can be taken immediately to prevent accident
 Conclusion
 
 The automatic railway track crack detection system provides a reliable and efficient solution to ensure railway safety. By integrating IR sensors, GPS, and GSM technology with Arduino, the system can automatically detect cracks, identify their exact location, and immediately send alerts to the maintenance team. This reduces manual effort, saves time, and improves the accuracy of fault detection. In the long run, such automation helps in preventing accidents, reducing maintenance costs, and increasing the overall efficiency of railway operations.
+
+
+Project Report
+
+[railway_track_crack_detector.pdf](https://github.com/user-attachments/files/22174108/railway_track_crack_detector.pdf)
+
+
+
+
